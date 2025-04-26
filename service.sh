@@ -6,7 +6,7 @@
 #!/system/bin/sh
 
 # Pause execution for Magisk Boot Service;
-sleep 30;
+sleep 500;
 
 
 ### I/O & FS tuning ###
@@ -199,9 +199,6 @@ settings put global config_enableShellMainThread true
 
 # Disable CRF
 echo "0" > /proc/sys/kernel/sched_child_runs_first
-
-# Enable Timer Migration
-echo "1" > /proc/sys/kernel/timer_migration
 
 # Wait a little..
 # Placeholder..
