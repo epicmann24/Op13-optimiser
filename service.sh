@@ -8,6 +8,7 @@
 # Pause execution for Magisk Boot Service;
 sleep 500;
 
+#Credits to EmanuelCN0
 
 ### I/O & FS tuning ###
 
